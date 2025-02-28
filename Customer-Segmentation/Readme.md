@@ -1,4 +1,3 @@
-cat > README.md <<EOF
 # 📌 Customer Segmentation in Retail Using RFM & K-Means Clustering
 
 ## **📖 Project Overview**
@@ -13,37 +12,42 @@ This project focuses on **customer segmentation** in the retail industry using *
 - **Visualization**: Matplotlib, Seaborn
 - **Development Environment**: Jupyter Notebook / Google Colab
 
-
-
-
-<img Src="Customer-Segmentation/Reports/Images/download (1).png" >
-
-
 ---
+
+
+<img Src="Reports/Images/Screenshot 2025-02-28 125516.png" >
+<img Src="Reports/Images/download (1).png" >
+<img Src="Reports/Images/download (2).png" >
+<img Src="Reports/Images/download (3).png" >
+<img Src="Reports/Images/download (4).png" >
+
+
+--- 
+
 
 ## **📌 Project Workflow**
 ### **1️⃣ Data Collection & Preprocessing**
 - **Dataset Used**: Online Retail Dataset
 - **Key Columns Used**:
-  - \`CustomerID\`: Unique customer identifier
-  - \`InvoiceDate\`: Purchase date
-  - \`InvoiceNo\`: Unique transaction number
-  - \`Quantity\`: Number of items purchased
-  - \`UnitPrice\`: Price per unit
-  - \`TotalPrice\`: Derived as \`Quantity * UnitPrice\`
+  - `CustomerID`: Unique customer identifier
+  - `InvoiceDate`: Purchase date
+  - `InvoiceNo`: Unique transaction number
+  - `Quantity`: Number of items purchased
+  - `UnitPrice`: Price per unit
+  - `TotalPrice`: Derived as `Quantity * UnitPrice`
 
 ### **2️⃣ Feature Engineering**
 - **RFM Calculation**:
-  - \`Recency (R)\`: Days since last purchase
-  - \`Frequency (F)\`: Number of transactions
-  - \`Monetary (M)\`: Total amount spent
+  - `Recency (R)`: Days since last purchase
+  - `Frequency (F)`: Number of transactions
+  - `Monetary (M)`: Total amount spent
 - **Handling Missing Values & Outliers**:
   - Removed negative transactions (returns)
-  - Handled missing \`CustomerID\` values
+  - Handled missing `CustomerID` values
   - Used **IQR Method** for outlier detection
 
 ### **3️⃣ Customer Segmentation Using K-Means**
-- **Scaling Data** using \`StandardScaler\`
+- **Scaling Data** using `StandardScaler`
 - **Finding Optimal Clusters (K) using Silhouette Score**
 - **Applying K-Means Algorithm**
 - **Visualizing Segments using Pairplots & Cluster Heatmaps**
@@ -68,12 +72,18 @@ This project focuses on **customer segmentation** in the retail industry using *
 
 ## **📌 How to Run the Project**
 1️⃣ Install dependencies:
-\`\`\`bash
+```bash
 pip install pandas numpy scikit-learn matplotlib seaborn prophet
-\`\`\`
-2️⃣ Run the script:
-\`\`\`bash
-python customer_segmentation.py
-\`\`\`
 
-EOF
+or
+
+python customer_segmentation.py
+
+
+
+
+### How to Save & Use:
+1. **Copy the code above**.  
+2. Open **Notepad (Windows)**, **TextEdit (Mac - in plain text mode)**, or any **code editor (VS Code, PyCharm, etc.)**.  
+3. **Paste the code** into the editor.  
+4. **Save the file as** `README.md` (Make sure to select "All Files" as the file type).  
