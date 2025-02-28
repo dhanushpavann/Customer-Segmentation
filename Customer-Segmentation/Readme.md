@@ -13,6 +13,12 @@ This project focuses on **customer segmentation** in the retail industry using *
 - **Visualization**: Matplotlib, Seaborn
 - **Development Environment**: Jupyter Notebook / Google Colab
 
+
+
+
+<img Src="Customer-Segmentation/Reports/Images/download (1).png" >
+
+
 ---
 
 ## **📌 Project Workflow**
